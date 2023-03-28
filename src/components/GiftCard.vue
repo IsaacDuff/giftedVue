@@ -1,7 +1,6 @@
 <template>
-    <img class="img-fluid elevation-5 rounded gift-card"
-        src="https://wkml.com/wp-content/uploads/sites/53/2019/12/baby-yoda-featured.png" alt="babyYodaMC">
-    <p>The best part of the Dentist Appointment</p>
+    <img class="img-fluid elevation-5 rounded gift-card" :src="giftProp?.url" :alt="giftProp?.tag">
+    <p>{{ giftProp?.tag }}</p>
 </template>
 
 

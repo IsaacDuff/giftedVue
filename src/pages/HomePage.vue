@@ -5,10 +5,10 @@
     </section>
     <section class="row">
       <div class="col-3" v-for="giftFromVFor in gifts" :key="giftFromVFor.id">
-        <img class="img-fluid elevation-5 rounded gift-card"
+        <!-- <img class="img-fluid elevation-5 rounded gift-card"
           src="https://wkml.com/wp-content/uploads/sites/53/2019/12/baby-yoda-featured.png" alt="babyYodaMC">
-        <p>The best part of the Dentist Appointment</p>
-        <!-- <GiftCard :giftProp="giftFromVFor" /> -->
+        <p>The best part of the Dentist Appointment</p> -->
+        <GiftCard :giftProp="giftFromVFor" />
       </div>
     </section>
 
